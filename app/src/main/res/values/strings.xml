@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Bahá\'í Daily Readings</string>
+    <string name="all_authors">All Authors</string>
+    <string name="all_titles">All Titles</string>
+    <string name="hint_author">Select an author above</string>
+    <string name="hint_title">Select a title above</string>
+    <string name="hint_open">Tap Open to read</string>
+    <string name="status_loading">Loading…</string>
+    <string name="mark_position">Mark Position</string>
+    <string name="reset_beginning">Reset to Beginning</string>
+    <string name="reset_dialog_title">Reset to Beginning</string>
+    <string name="reset_dialog_message">Reset to the beginning of this text? This will clear your saved position.</string>
+    <string name="reset_confirm">Reset</string>
+    <string name="cancel">Cancel</string>
+    <string name="position_marked">Position marked</string>
+</resources>
