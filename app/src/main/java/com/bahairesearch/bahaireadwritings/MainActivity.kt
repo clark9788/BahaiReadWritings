@@ -11,6 +11,7 @@ import android.widget.Button
 import android.widget.Spinner
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.appbar.MaterialToolbar
 import com.bahairesearch.bahaireadwritings.data.CorpusIndex
 import com.bahairesearch.bahaireadwritings.data.ManifestReader
 import java.util.concurrent.Executors
@@ -34,6 +35,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        setSupportActionBar(findViewById<MaterialToolbar>(R.id.toolbar))
 
         authorSpinner = findViewById(R.id.authorSpinner)
         titleSpinner = findViewById(R.id.titleSpinner)

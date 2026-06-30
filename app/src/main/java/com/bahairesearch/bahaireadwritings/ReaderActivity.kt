@@ -9,6 +9,7 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.appbar.MaterialToolbar
 import com.bahairesearch.bahaireadwritings.data.Bookmark
 import com.bahairesearch.bahaireadwritings.data.BookmarkDatabase
 import com.bahairesearch.bahaireadwritings.data.BookmarkDao
@@ -47,6 +48,7 @@ class ReaderActivity : AppCompatActivity() {
         filename = intent.getStringExtra(MainActivity.EXTRA_FILENAME) ?: ""
         val title = intent.getStringExtra(MainActivity.EXTRA_TITLE) ?: ""
 
+        setSupportActionBar(findViewById<MaterialToolbar>(R.id.toolbar))
         supportActionBar?.apply {
             this.title = title
             setDisplayHomeAsUpEnabled(true)

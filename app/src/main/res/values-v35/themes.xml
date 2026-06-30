@@ -1,0 +1,3 @@
+<resources>
+    <!-- No API 35 overrides needed; AppBarLayout with fitsSystemWindows handles insets. -->
+</resources>
