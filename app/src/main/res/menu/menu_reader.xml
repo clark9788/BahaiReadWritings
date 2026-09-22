@@ -12,4 +12,19 @@
         android:title="@string/reset_beginning"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/action_increase_text"
+        android:title="@string/increase_text_size"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_decrease_text"
+        android:title="@string/decrease_text_size"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_reset_text"
+        android:title="@string/reset_text_size"
+        app:showAsAction="never" />
+
 </menu>

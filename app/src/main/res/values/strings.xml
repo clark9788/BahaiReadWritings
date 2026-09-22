@@ -13,4 +13,8 @@
     <string name="reset_confirm">Reset</string>
     <string name="cancel">Cancel</string>
     <string name="position_marked">Position marked</string>
+    <string name="increase_text_size">Increase Text Size</string>
+    <string name="decrease_text_size">Decrease Text Size</string>
+    <string name="reset_text_size">Reset Text Size</string>
+    <string name="text_size_percent">Text size %1$d%%</string>
 </resources>
